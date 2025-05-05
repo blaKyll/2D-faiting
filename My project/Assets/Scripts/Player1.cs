@@ -1,46 +1,23 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Player1 : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    private bool isBlocking = false;
+    [SerializeField] private float moveSpeed = 5f;
+    private Rigidbody2D rb;
+    private PlayerInputActions playerInputActions;
 
-    void Update()
+    private void Awake()
     {
-        Vector2 move = Vector2.zero;
-
-        // Движение
-        if (Input.GetKey(KeyCode.A))
-        {
-            move = Vector2.left;
-            Debug.Log("Player1 moving left");
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            move = Vector2.right;
-            Debug.Log("Player1 moving right");
-        }
-
-        // Удар
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("Player1 attack (LMB)");
-            Attack();
-        }
-
-        // Блок
-        isBlocking = Input.GetMouseButton(1);
-        if (isBlocking)
-        {
-            Debug.Log("Player1 is blocking (RMB)");
-        }
-
-        // Движение
-        transform.Translate(move * moveSpeed * Time.deltaTime);
+        rb = GetComponent<Rigidbody2D>();
+       
     }
-
-    void Attack()
+    private void FixedUpdate()
     {
-        Debug.Log("Player1 attacked!");
+        Vector2 inputVector=GameInput.Instanse.GetMovementVector();
+        inputVector = inputVector.normalized;
+        rb.MovePosition(rb.position + inputVector * (moveSpeed * Time.fixedDeltaTime));
+
     }
 }
