@@ -5,7 +5,7 @@ public class Timer : MonoBehaviour
 {
     [Header("Настройки таймера")]
     [SerializeField] private TextMeshProUGUI timerText; // Ссылка на текстовый элемент
-    [SerializeField] private float lifeTime = 30f; // Установлено 30 секунд
+    [SerializeField] private float lifeTime = 132f; // Установлено 30 секунд
 
     private float remainingTime;
     private bool isGameActive = true;
