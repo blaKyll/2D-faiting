@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\fromproject\\MyProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|c:\\fromproject\\myproject\\assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|c:\\fromproject\\myproject\\assets\\scripts\\playervisual1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playervisual1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|c:\\fromproject\\myproject\\assets\\scripts\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|C:\\fromproject\\MyProject\\assets\\scripts\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|c:\\fromproject\\myproject\\assets\\scripts\\player2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|C:\\fromproject\\MyProject\\assets\\scripts\\player2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player2.cs",
               "DocumentMoniker": "C:\\fromproject\\MyProject\\Assets\\Scripts\\Player2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2.cs",
@@ -39,12 +43,24 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T15:40:20.962Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HpBar.cs",
+              "DocumentMoniker": "C:\\fromproject\\MyProject\\Assets\\Scripts\\HpBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HpBar.cs",
+              "ToolTip": "C:\\fromproject\\MyProject\\Assets\\Scripts\\HpBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HpBar.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:40:22.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerVisual1.cs",
               "DocumentMoniker": "C:\\fromproject\\MyProject\\Assets\\Scripts\\PlayerVisual1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerVisual1.cs",
@@ -57,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player1.cs",
               "DocumentMoniker": "C:\\fromproject\\MyProject\\Assets\\Scripts\\Player1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1.cs",
@@ -65,12 +81,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player1.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:40:47.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T15:40:47.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameInput.cs",
               "DocumentMoniker": "C:\\fromproject\\MyProject\\Assets\\Scripts\\GameInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
@@ -78,8 +93,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:42:33.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T15:42:33.87Z"
             }
           ]
         }
